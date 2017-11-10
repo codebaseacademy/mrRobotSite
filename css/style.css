@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    border: 8px solid rgba(0, 0, 0, 0.9);
+}
+
+header {
+    background: url(../img/mask.png);
+    height: 980px;
+}
+
+h1 {
+    font-family: 'VT323', monospace;
+    font-size: 120px;
+    color: #fff;
+    padding-top: 400px;
+}
+
+.main-site {
+    margin-top: 50px;
+    font-family: 'PT Mono', monospace;
+}
+
+.members {
+    padding-bottom: 70px;
+}
+h2 {
+    padding: 50px;
+}
+
+img {
+    width: 40%;
+}
+
+footer {
+    padding: 20px;
+}
+
+
+img {
+    border-radius: 25px;
+}
+
+
+
+h1 {
+    text-shadow: 1px 1px #1B1A30, 2px 2px #1B1A30, 3px 3px #1B1A30, 4px 4px #1B1A30, 5px 5px #1B1A30;
+}
+
+
+.darlene {
+   margin: auto;
+   width: 750px;
+   height: 500px;
+   background: 
+        linear-gradient(
+            rgba(0, 184, 255, 0.45),
+            rgba(0, 184, 255, 0.45)
+        ),
+        url('../img/darlene.jpg') no-repeat center;
+   border-radius: 25px;
+   
+}
+
+
+a {
+    background-color: rgb(73, 73, 73);
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    border-radius: 7px;
+    display: inline-block;
+    font-family: helvetica;
+    /* transition: <property> (default all) <duration> <timing-function> (default ease) <delay> (default 0); */
+    transition: background-color .5s, color .5s linear, border-radius 2s ease-out;
+}
+
+a:hover {
+    background-color: rgb(63, 70, 88);
+    color: black;
+    border-radius: 30px;
+  }
+ 
+  
+footer {
+    margin-top: 50px;
+    animation: changeShift 5s infinite;
+}  
+
+  @keyframes changeShift {
+    0%, 100% {
+        transform: translate(0,0);  
+        border-radius: 100px;
+        background-color: rgb(114, 120, 204);
+    }
+
+    20% {
+        transform: translate(200px, -400px) scale(0.6, 0.6);
+        border-radius: 0px;
+        background-color: rgb(214, 77, 168);
+    } 
+
+    50% {
+        transform: translate(500px, -700px) rotate(180deg);
+        background-color: rgb(77, 214, 173);
+    }
+
+}
